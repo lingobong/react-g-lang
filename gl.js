@@ -1,5 +1,5 @@
-import React,{Fragment} from 'react'
-import GL from 'g-lang'
+const React = require('react')
+const GL = require('g-lang')
 
 function _LangReloader(Component: React.ReactNode){
 
