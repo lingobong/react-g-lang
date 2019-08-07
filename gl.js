@@ -23,3 +23,8 @@ export default _LangReloader
 
 export const LangReloader = _LangReloader
 export const lang = GL.lang
+
+type ReturnArg<T> = ()=>T
+export const createObject = function<T> ( fn: ReturnArg<T> = () => {  } ): T {
+    return GL.createObject(fn)
+}
